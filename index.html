@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="" en>
+<html lang="en">
 
 <head>
-    <meta charser="" UTF-8> 
-    <meta name="viewport" content="width=device-width" , initial-sccale="1.0">
+    <meta charser="" UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color">
     <title>Weather App</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -16,6 +18,7 @@
         <main>
             <section class="location">
                 <div class="city">---</div>
+
                 <div class="date">-----</div>
             </section>
             <div class="current">
@@ -35,5 +38,8 @@
     <script src="index.js"></script>
 
     <!-- BY B-L-A-N-K-->
+    <script src="/service-worker.js">
+    </script>
+</body>
 
 </html>
